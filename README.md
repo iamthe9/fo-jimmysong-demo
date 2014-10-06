@@ -7,6 +7,6 @@
 ## 目录结构
 
 |目录|框架名称|用途|首页|
-|：--|：--|:--|：--:|
+|:--|:--|:--|:--|
 |validationfo|Validation.FO|轻量级验证框架|https://github.com/41zone/Validation.FO|
 |kryo|Kryo|纯Java序列化框架|https://github.com/EsotericSoftware/kryo|
