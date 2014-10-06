@@ -1,4 +1,4 @@
-package cc.fozone.jimmysong.demo.kryo;
+package kryo;
 
 
 import java.io.FileNotFoundException;
