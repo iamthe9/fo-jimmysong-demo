@@ -6,7 +6,6 @@ import java.util.Map;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import validationfo.pojo.User;
 import cc.fozone.validation.IValidateService;
 
 public class SpringTest {

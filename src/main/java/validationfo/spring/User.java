@@ -1,4 +1,4 @@
-package validationfo.pojo;
+package validationfo.spring;
 
 import java.sql.Timestamp;
 
