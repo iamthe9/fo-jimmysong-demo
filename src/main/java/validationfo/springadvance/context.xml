@@ -10,10 +10,10 @@
 	<!-- 基于 Spring 配置读取 -->
 	<bean id="springValidateConfig" class="cc.fozone.validation.config.SpringValidateConfig">
 		<property name="validators">
-			<value>validationfo/spring/validators.fo.xml</value>
+			<value>validationfo/springadvance/validators.fo.xml</value>
 		</property>
 		<property name="rules">
-			<value>validationfo/spring/rules.fo.xml</value>
+			<value>validationfo/springadvance/rules.fo.xml</value>
 		</property>
 	</bean>
 	
@@ -24,4 +24,7 @@
 	
 	<!-- 配置基于Spring的验证器 -->
 	<bean class="cc.fozone.validation.validators.SpringValidator"/>
+	
+	<!-- 通过Spring进行验证 -->
+	<bean id="userService" class="validationfo.springadvance.UserService"/>
 </beans>

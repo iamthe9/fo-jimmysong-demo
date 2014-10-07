@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fozone-validation>
+<group name="user.validate">
+	<field name="username">
+		<rule name="spring" message="该用户已存在">
+			<param name="beanName" value="userService"/>
+			<param name="methodName" value="exist"/>
+		</rule>
+	</field>
+	
+	<field name="usernameLength">
+		<rule name="spring" message="用户名长度验证错误">
+			<param name="beanName" value="userService"/>
+			<param name="methodName" value="length"/>
+			<param name="parameter" value="this"/>
+		</rule>
+		
+		<rule name="spring" message="用户名长度不能小于5个字符">
+			<param name="beanName" value="userService"/>
+			<param name="methodName" value="lengthByName"/>
+			<param name="parameter" value="username"/>
+		</rule>
+	</field>
+</group>
+</fozone-validation>
