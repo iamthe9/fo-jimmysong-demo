@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fozone-validation>
+	<!-- 验证组ID，全局唯一 -->
+	<group name="money.validate">
+		<!-- 验证字段 -->
+		<field name="number">
+			<rule name="custom" message="验证失败，不能被指定的数整除">
+				<param name="value" value="3"/>
+			</rule>
+		</field>
+	</group>
+</fozone-validation>
