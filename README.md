@@ -10,3 +10,4 @@
 |:--|:--|:--|:--|
 |validationfo|Validation.FO|轻量级验证框架|https://github.com/41zone/Validation.FO|
 |kryo|Kryo|纯Java序列化框架|https://github.com/EsotericSoftware/kryo|
+|rmi|RMI|远程调用接口|nothing|

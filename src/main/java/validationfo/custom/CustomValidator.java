@@ -1,8 +1,5 @@
 package validationfo.custom;
 
-import java.lang.reflect.InvocationTargetException;
-
-import org.apache.commons.beanutils.PropertyUtils;
 import org.apache.commons.lang.StringUtils;
 import org.apache.log4j.Logger;
 
@@ -20,16 +17,6 @@ public class CustomValidator implements IValidator {
 	private static final Logger logger = Logger.getLogger(CustomValidator.class);
 	public boolean execute(Object context, Class type, Object value, Rule rule) {
 		// TODO Auto-generated method stub
-		/**
-		 * 这里只是演示一下context的用处
-		 * 可以通过context以及反射获取对象的属性值
-		 * 举个例子
-		 */
-		try {
-			System.out.println("TEXT = "+PropertyUtils.getProperty(context, "text"));
-		} catch (Exception e1) {
-			// TODO Auto-generated catch block
-		}
 		
 		/**
 		 * 通过 value 实际验证的值
